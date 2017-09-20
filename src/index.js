@@ -10,6 +10,7 @@ import PostsIndex from './containers/posts_index';
 import PostsNew from './containers/posts_new';
 import PostsShow from './containers/posts_show';
 
+// adding documentation
 const createStoreWithMiddleware = applyMiddleware(promise)(createStore);
 
 ReactDOM.render(
